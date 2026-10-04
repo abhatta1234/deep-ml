@@ -20,4 +20,4 @@ def calculate_matrix_mean(matrix, mode: str) -> torch.Tensor:
     if mode == "column":
         indx = 0
     
-    return torch.mean(a_t,indx,keepdim=True)
+    return torch.mean(a_t,indx,keepdim=False)
