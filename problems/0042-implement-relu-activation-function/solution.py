@@ -12,7 +12,9 @@ def relu(z: float) -> torch.Tensor:
     """
     # Your code here
     z_t = torch.as_tensor(z)
-    if z_t>0:
-        return z_t
-    else:
-        return torch.tensor(0)
+    # if z_t>0:
+    #     return z_t
+    # else:
+    #     return torch.tensor(0)
+
+    return torch.clamp(z_t,min=0)
