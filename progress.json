@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:08:08.111Z",
+  "generated_at": "2026-10-17T01:40:13.424Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -182,6 +182,19 @@
       "last_pushed_at": "2026-10-14T00:08:07.415Z",
       "language": "python",
       "lines": 29
+    },
+    "problem:39": {
+      "kind": "problem",
+      "id": "39",
+      "title": "Implementation of Log Softmax Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/39",
+      "path": "problems/0039-implementation-of-log-softmax-function",
+      "first_solved_at": "2026-10-17T01:40:12.850Z",
+      "last_pushed_at": "2026-10-17T01:40:12.850Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
