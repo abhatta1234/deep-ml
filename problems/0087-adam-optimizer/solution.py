@@ -33,13 +33,13 @@ def adam_optimizer(
     # Your code here
     # first and second moment calculations
     m = beta1*m + (1-beta1)*grad
-    v = beta2*v + (1-beta2)*grad**2
+    v = beta2*v + (1-beta2)*(grad**2)
 
     # bias corrections
     mt_hat = m/(1-beta1**t)
     vt_hat = v/(1-beta2**t)
 
     # theta corrections
-    parameter-= learning_rate*mt_hat/(vt_hat**0.5+epsilon)
+    parameter = parameter - learning_rate*mt_hat/(vt_hat**0.5+epsilon)
 
     return torch.round(parameter, decimals=5), torch.round(m, decimals=5), torch.round(v, decimals=5)
