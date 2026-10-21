@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:33:35.806Z",
+  "generated_at": "2026-10-21T23:43:05.960Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -257,9 +257,9 @@
       "url": "https://www.deep-ml.com/problems/96",
       "path": "problems/0096-implement-the-hard-sigmoid-activation-function",
       "first_solved_at": "2026-10-21T23:33:35.107Z",
-      "last_pushed_at": "2026-10-21T23:33:35.107Z",
+      "last_pushed_at": "2026-10-21T23:43:05.341Z",
       "language": "python",
-      "lines": 20
+      "lines": 18
     }
   }
 }

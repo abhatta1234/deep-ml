@@ -12,9 +12,7 @@ def hard_sigmoid(x: float) -> float:
         float: The Hard Sigmoid of the input
     """
     # Your code here
-    if x<=-2.5:
-        return 0
-    elif x>=2.5:
-        return 1
-    else:
-        return 0.2*x+0.5
+    # the whole range of output is [0,1] 
+    # so return th function value in linear range else 0 or 1
+    x = torch.tensor(x,dtype=torch.float32)
+    return torch.clamp(0.2*x+0.5,0,1).item()
