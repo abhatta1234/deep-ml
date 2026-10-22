@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:43:05.960Z",
+  "generated_at": "2026-10-22T23:06:49.208Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -258,6 +258,19 @@
       "path": "problems/0096-implement-the-hard-sigmoid-activation-function",
       "first_solved_at": "2026-10-21T23:33:35.107Z",
       "last_pushed_at": "2026-10-21T23:43:05.341Z",
+      "language": "python",
+      "lines": 18
+    },
+    "problem:98": {
+      "kind": "problem",
+      "id": "98",
+      "title": "Implement PReLU Forward and Backward Pass",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/98",
+      "path": "problems/0098-implement-prelu-forward-and-backward-pass",
+      "first_solved_at": "2026-10-22T23:06:48.621Z",
+      "last_pushed_at": "2026-10-22T23:06:48.621Z",
       "language": "python",
       "lines": 18
     }
