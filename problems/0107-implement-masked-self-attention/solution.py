@@ -12,7 +12,7 @@ def masked_attention(Q: torch.Tensor, K: torch.Tensor, V: torch.Tensor, mask: to
     """
     # Your code here
     d = torch.tensor(Q.size()[-1])
-    qk_mult = (Q @ K.T + mask) /d.sqrt()
-    soft_max_w_mask = torch.softmax(qk_mult, dim=1)
+    qk_mult = Q @ K.T / d.sqrt() + mask
+    soft_max_w_mask = torch.softmax(qk_mult, dim=-1)
     return soft_max_w_mask @ V 
 
