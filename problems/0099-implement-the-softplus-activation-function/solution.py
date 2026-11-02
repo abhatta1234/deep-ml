@@ -13,4 +13,7 @@ def softplus(x: float) -> torch.Tensor:
     """
     # Your code here
     x = torch.as_tensor(x)
+    # for numerical stability
+    # defaults to max(x,0) for positiev
+    # second part for negative 
     return max(x,0) + torch.log(1+torch.exp(-torch.abs(x)))
