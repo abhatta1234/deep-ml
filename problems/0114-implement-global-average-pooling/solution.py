@@ -10,4 +10,4 @@ def global_avg_pool(x: torch.Tensor) -> torch.Tensor:
     Returns:
         1D tensor of shape (channels,) with average values per channel
     """
-    return torch.mean(x,dim=(0,1),keepdim=True)
+    return torch.mean(x,dim=(0,1))
